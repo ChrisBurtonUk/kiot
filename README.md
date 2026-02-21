@@ -161,6 +161,7 @@ unit_of_measurement=W
 AccentColour=true
 Active=true
 ActiveWindow=true
+Activities=true
 Audio=true
 Battery=true
 Bluetooth=true
@@ -195,6 +196,7 @@ Shortcuts=true
 | Gamepad Connected | Binary Sensor | Gamepad/joystick connection detection |
 | Scripts | Button | Execute custom scripts |
 | Bluetooth | Switch | Bluetooth adapter control and device connection management |
+| Activities | Sensor | Currently selected activity name and activity uuid |
 
 ## Flatpak Build
 
