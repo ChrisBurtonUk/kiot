@@ -182,21 +182,21 @@ Shortcuts=true
 
 | Feature | Entity Type | Description |
 |---------|-------------|-------------|
-| User Activity | Binary Sensor | Detects when user is active/inactive |
-| Locked State | Lock | Screen lock state monitoring and control |
-| Power Control | Button | Suspend, hibernate, power off, and restart |
-| Camera Activity | Binary Sensor | Detects when camera is in use |
 | Accent Colour | Sensor | Current desktop accent color |
-| Shortcuts | Device Trigger | Global keyboard shortcuts for HA automations |
-| Night Mode | Binary Sensor | Night mode/blue light filter status |
 | Active Window | Sensor | Currently focused application window |
+| Activities | Sensor | Currently selected activity name and activity uuid |
 | Audio Controller | Number + Select | Volume control and device selection |
 | Battery Status | Sensor | Battery charge level and attributes |
+| Bluetooth | Switch | Bluetooth adapter control and device connection management |
+| Camera Activity | Binary Sensor | Detects when camera is in use |
 | Do Not Disturb | Binary Sensor | DnD mode status |
 | Gamepad Connected | Binary Sensor | Gamepad/joystick connection detection |
+| Locked State | Lock | Screen lock state monitoring and control |
+| Night Mode | Binary Sensor | Night mode/blue light filter status |
+| Power Control | Button | Suspend, hibernate, power off, and restart |
 | Scripts | Button | Execute custom scripts |
-| Bluetooth | Switch | Bluetooth adapter control and device connection management |
-| Activities | Sensor | Currently selected activity name and activity uuid |
+| Shortcuts | Device Trigger | Global keyboard shortcuts for HA automations |
+| User Activity | Binary Sensor | Detects when user is active/inactive |
 
 ## Flatpak Build
 
